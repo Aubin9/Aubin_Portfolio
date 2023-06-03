@@ -2,20 +2,20 @@ import React from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {AiOutlineLinkedin} from 'react-icons/ai'
-import {BsWhatsapp} from 'react-icons/bs'
+import {BsWhatsapp, BsYoutube} from 'react-icons/bs'
 import {useRef} from 'react'
 //import emailjs from 'emailjs-com'
 
 const Contact = () => {
 const form = useRef();
 const sendEmail = (e) => {e.preventDefault();
-//emailjs.sendForm('service_5vuauza', 'template_fdnnl56', form.current,'EmSdUNQzQuxkUqGWx')
-e.target.reset()
-.then((result) => {
-    console.log(result.text)
-},(error) =>{
-    console.log(error.text);
-});
+    //emailjs.sendForm('service_5vuauza', 'template_fdnnl56', form.current,'EmSdUNQzQuxkUqGWx')
+    e.target.reset()
+    .then((result) => {
+        console.log(result.text)
+    },(error) =>{
+        console.log(error.text);
+    });
 };
 return (
     <section id="contact">
@@ -33,13 +33,19 @@ return (
                     <AiOutlineLinkedin className='contact__option__icon'/>
                     <h4>LinkedIn</h4>
                     <h5>Profile</h5>
-                    <a href='https://www.linkedin.com/in/brown-djomo-844b96164/' target='_blank'>Tape me on LinkedIn</a>
+                    <a href='https://www.linkedin.com/in/aubin-touko' target='_blank'>Tape me on LinkedIn</a>
                 </article>
                 <article className='contact__option'>
                     <BsWhatsapp className='contact__option__icon'/>
-                    <h4>Whatsapp</h4>
+                    <h4>WhatsApp</h4>
                     <h5>Direct message</h5>
                     <a href='https://web.whatsapp.com/send?phone=+237656442391' target='_blank'>Whatsapp me</a>
+                </article>
+                <article className='contact__option'>
+                    <BsYoutube className='contact__option__icon'/>
+                    <h4>Youtube</h4>
+                    <h5>quelques cours de maths</h5>
+                    <a href='https://www.youtube.com/@MathsAvecAubin' target='_blank'>cours</a>
                 </article>
             </div>
             <form ref={form} onSubmit={sendEmail}>
