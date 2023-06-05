@@ -10,7 +10,7 @@ const Footer = () => {
     return (
       <div className="footer__container">
         <a href="#" className="footer__logo">
-          Aubin SIAHA
+         Aubin SIAHA
         </a>
 
         <ul className="permalinks">
@@ -50,13 +50,13 @@ const Footer = () => {
           <a href="https://twitter.com" target="blank">
             <CgTwitter />
           </a>
-          <a href="https://youtube.com" target='blank'>
-            <BsYoutube/>
+          <a href="https://youtube.com" target="blank">
+            <BsYoutube />
           </a>
         </div>
 
         <div className="copyRight">
-            <h3>@copyright BD 2023</h3>
+            <h3>@copyright DK 2023</h3>
         </div>
       </div>
     );

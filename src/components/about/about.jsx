@@ -1,58 +1,52 @@
 import React from 'react'
 import './about.css'
-import moi from '../../assets/IMG_20220503_121940.jpg'
-import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
-import {VscFolderLibrary} from 'react-icons/vsc'
+import ME from '../../assets/me-about.jpg'
+import{FaAward} from 'react-icons/fa'
+import{FaUsers} from 'react-icons/fa'
+import{AiFillFolder} from 'react-icons/ai'
 
-const About = () => {
-    return (
-      <section id="about">
-        <h5>Get to know</h5>
-        <h2>About me</h2>
-        <div className="container about__container">
-          <div className="about__me">
-            <div className="about__me__image">
-              <img src={moi} alt="Aubin " />
-            </div>
-          </div>
-          <div className="about__me__content">
-            <div className="about__cards">
-              <article className="about__card">
-                <FaAward className="about__icon" />
-                <h5>Experience</h5>
-                <small>1+ Years</small>
-              </article>
-              <article className="about__card">
-                <FiUsers className="about__icon" />
-                <h5>Clients</h5>
-                <small>3 world widely</small>
-              </article>
-              <article className="about__card">
-                <VscFolderLibrary className="about__icon" />
-                <h5>Projects</h5>
-                <small>2 Completed</small>
-              </article>
-            </div>
-            <p>
-              I am a young junior software engineer, level 300 student at the Faculty of
-              Engineering and Technology(FET) of the University of Buea . I am to get
-              my B.eng by 2025. Being on demand for experience, I apply to
-              Camsol.io which accepts me and gives me the chance to work on real
-              business projects in order to gain experience. From July 2021 to
-              today, I learned technologies such as react, react native, in
-              short the MERN stack, I am still learning and counting on the
-              support of Camsol to increase my knowledge at end of being an
-              engineer not only graduate, but also qualified. I hold a
-              French-speaking baccalaureate D sexion, my university studies at
-              FET I did in English. I can therefore express myself in French and
-              in English (average).
-            </p>
-            <a href="#contact" className="btn btn-primary">Let's talk</a>
+function About() {
+  return (
+    <section id='about'>
+      <h1>Get to know</h1>
+      <h2>About me</h2>
+      <div className="container about__container">
+        <div className="about__me">
+          <div className="about__me-image">
+            <img src={ME} alt="about me" />
           </div>
         </div>
-      </section>
-    );
+        <div className="about__content">
+          <div className="about__cards">
+            <article className='about__card'>
+              <FaAward className='about__icon'/>
+              <h5>Client</h5>
+              <small>empty</small>
+            </article>
+
+            <article className='about__card'>
+              <FaUsers className='about__icon'/>
+              <h5>Projects</h5>
+              <small>5+ completed</small>
+            </article>
+
+            <article className='about__card'>
+              <AiFillFolder className='about__icon'/>
+              <h5>Experience</h5>
+              <small>3+ months internship</small>
+            </article>
+          </div>
+          <p>
+            I am actually following a bachelor degree program as computer ingineering option sofware engineer.
+            Young bilingual Camerounian first speacking of french, I am so gratfull to be in an ingineering field
+            and i wish to be very very useful in the sociaty in that of identify problems in the live society and
+            be abble to comme out with sollutions, that's all about thinking as engineer !!
+          </p>
+          <a href="#contact" className='btn btn-primary'>Let us talk</a>
+        </div>
+      </div>
+    </section>
+  )
 }
 
 export default About

@@ -1,12 +1,13 @@
 import React from 'react'
-import CV from '../../assets/IMG2.jpg'
+import CV from'../../assets//Mon_CV.pdf'
 
-const CTA = () => {
-return (
+function CTA() {
+  return (
     <div className='cta'>
-        <a href={CV} download className='btn'>Download My CV</a>
-        <a href="#contact" className='btn btn-primary'>hey! Let's Talk !</a>
+        <a href={CV} download className='btn'>Download my CV</a>
+        <a href='#contact' className='btn btn-primary'>Hey, let's talk</a>
     </div>
-)
+  )
 }
-export default CTA //this line indicates that this component can be imported and used everywhere in our application.
+
+export default CTA

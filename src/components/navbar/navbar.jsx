@@ -1,6 +1,6 @@
 import React from 'react'
 import './navbar.css'
-import {AiOutlineHome} from 'react-icons/ai'
+import {GrHomeRounded} from 'react-icons/gr'
 import {AiOutlineUser} from 'react-icons/ai'
 import {BiBook} from 'react-icons/bi'
 import {RiServiceLine} from 'react-icons/ri'
@@ -12,7 +12,7 @@ const Navbar = () => {
     const [activeNav, setActiveNav] = useState('#')
     return (
         <nav>
-            <a href='#' onClick={()=>setActiveNav('#')} className={activeNav==='#'? 'active' : ''}><AiOutlineHome/></a>
+            <a href='#' onClick={()=>setActiveNav('#')} className={activeNav==='#'? 'active' : ''}><GrHomeRounded/></a>
             <a href='#about' onClick={()=>setActiveNav('#about')} className={activeNav==='#about'? 'active' : ''} ><AiOutlineUser/></a>
             <a href='#experience' onClick={()=>setActiveNav('#experience')} className={activeNav==='#experience'? 'active' : ''}><BiBook/></a>
             <a href='#service' onClick={()=>setActiveNav('#service')} className={activeNav==='#service'? 'active' : ''}><RiServiceLine/></a>

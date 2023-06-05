@@ -53,7 +53,7 @@
     .experience__container{
         grid-template-columns: 1fr;
     }
-    
+
     .experience__details > div{
         width: 88%;
         padding:1rem;

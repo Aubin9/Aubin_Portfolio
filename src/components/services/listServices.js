@@ -10,7 +10,7 @@ const ListServices = () => {
     }, [])
 
     const getServices = async () => {
-        const response = await axios.get('http://localhost:3000/api/service/services')
+        const response = await axios.get('http://localhost:5000/api/service/services')
         setData(response.data.services)
     }
     console.log(data)

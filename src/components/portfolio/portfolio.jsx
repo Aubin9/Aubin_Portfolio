@@ -1,13 +1,13 @@
 import React from "react";
 import "./portfolio.css";
-import img1 from "../../assets/IMG-20220330-WA0038.jpg";
-import img2 from "../../assets/IMG2.jpg";
-import img3 from "../../assets/IMG_20220330_123155.jpg";
-import img5 from "../../assets/IMG_20220330_123220.jpg";
-import img6 from "../../assets/IMG_20220330_123220.jpg";
-import img7 from "../../assets/IMG_20220503_121940.jpg";
-import img8 from "../../assets/IMG-20220330-WA0038.jpg";
-import img9 from "../../assets/IMG_20220330_123220.jpg";
+import img1 from "../../assets/img1.png";
+import img2 from "../../assets/img2.png";
+import img3 from "../../assets/img3.png";
+import img5 from "../../assets/img5.png";
+import img6 from "../../assets/img6.png";
+import img7 from "../../assets/img7.png";
+import img8 from "../../assets/img8.png";
+import img9 from "../../assets/img9.png";
 import ListPortfolio from "./listPortfolio";
 
 export const Portfolio = () => {

@@ -88,7 +88,7 @@ img{
 }
 @media screen and (max-width:1024px) {
 .container{
-    width: var(--container-width-md);
+    width: var(--container-width-md);/*for medium(tablets)*/
 }
 section{
     margin-top: 6rem;
@@ -96,7 +96,7 @@ section{
 }
 @media screen and (max-width:600px) {
 .container{
-    width: var(--container-width-sm);
+    width: var(--container-width-sm);/*for small medium(phone)*/
 }
 section > h2{
     margin-bottom: 2rem;

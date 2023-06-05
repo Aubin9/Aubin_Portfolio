@@ -11,7 +11,7 @@ const ListExperiences = () => {
 
   const getExperiences = async () => {
     const response = await axios.get(
-      "http://localhost:3000/api/experience/experiences"
+      "http://localhost:5000/api/experience/experiences"
     );
     setData(response.data.experience);
   };
