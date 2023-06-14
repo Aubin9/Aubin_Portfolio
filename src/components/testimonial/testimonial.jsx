@@ -1,11 +1,11 @@
 import React from "react";
 import "./testimonials.css";
-import IMG from "../../assets/IMG-20220330-WA0038.jpg";
-import AV1 from "../../assets/IMG2.jpg";
-import AV2 from "../../assets/IMG_20220330_123220.jpg";
-import AV3 from "../../assets/IMG_20220330_123220.jpg";
-import AV4 from "../../assets/IMG_20220330_123220.jpg";
-import AV5 from "../../assets/IMG_20220503_121940.jpg";
+import IMG from "../../assets/portfolio1.jpg";
+import AV1 from "../../assets/portfolio2.jpg";
+import AV2 from "../../assets/portfolio3.jpg";
+import AV3 from "../../assets/portfolio4.jpg";
+import AV4 from "../../assets/portfolio5.jpg";
+import AV5 from "../../assets/portfolio6.jpg";
 
 // import Swiper core and required modules
 import { Pagination, Navigation, Scrollbar, A11y } from 'swiper';
@@ -22,42 +22,42 @@ export const Testimonial = () => {
     {
       id: 1,
       testimonial:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus est, consequatur illum ullam numquam voluptate necessitatibus sequi quidem obcaecati! Veritatis repellendus provident neque. Porro, id illum iure soluta vel alias, maiores tempora doloremque vitae neque maxime at, facilis ipsum molestiae dicta quasi harum optio atque deserunt quis amet consectetur perspiciatis.",
+        "Aubin was abble to better understand the concepts of react to get an application to his own, identify some problems in the society, and solve them",
       avatar: IMG,
       Cname: "Client 1",
     },
     {
       id: 2,
       testimonial:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus est, consequatur illum ullam numquam voluptate necessitatibus sequi quidem obcaecati! Veritatis repellendus provident neque. Porro, id illum iure soluta vel alias, maiores tempora doloremque vitae neque maxime at, facilis ipsum molestiae dicta quasi harum optio atque deserunt quis amet consectetur perspiciatis.",
+        "Laurel was abble to build to his own a buissness that actually helps here take care of herselve as well as many others peoples in the society",
       avatar: AV1,
       Cname: "Client 2",
     },
     {
       id: 3,
       testimonial:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus est, consequatur illum ullam numquam voluptate necessitatibus sequi quidem obcaecati! Veritatis repellendus provident neque. Porro, id illum iure soluta vel alias, maiores tempora doloremque vitae neque maxime at, facilis ipsum molestiae dicta quasi harum optio atque deserunt quis amet consectetur perspiciatis.",
+        "Duplex was abble to better understand many concepts about contend creator, and how it works and can helps in today lives",
       avatar: AV2,
       Cname: "Client 3",
     },
     {
       id: 4,
       testimonial:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus est, consequatur illum ullam numquam voluptate necessitatibus sequi quidem obcaecati! Veritatis repellendus provident neque. Porro, id illum iure soluta vel alias, maiores tempora doloremque vitae neque maxime at, facilis ipsum molestiae dicta quasi harum optio atque deserunt quis amet consectetur perspiciatis.",
+        "I was abble during my carear to identify and solve problems",
       avatar: AV3,
       Cname: "Client 4",
     },
     {
       id: 5,
       testimonial:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus est, consequatur illum ullam numquam voluptate necessitatibus sequi quidem obcaecati! Veritatis repellendus provident neque. Porro, id illum iure soluta vel alias, maiores tempora doloremque vitae neque maxime at, facilis ipsum molestiae dicta quasi harum optio atque deserunt quis amet consectetur perspiciatis.",
+        "I was abble to learn more about real live chanllenges",
       avatar: AV5,
       Cname: "Client 5",
     },
     {
       id: 6,
       testimonial:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus est, consequatur illum ullam numquam voluptate necessitatibus sequi quidem obcaecati! Veritatis repellendus provident neque. Porro, id illum iure soluta vel alias, maiores tempora doloremque vitae neque maxime at, facilis ipsum molestiae dicta quasi harum optio atque deserunt quis amet consectetur perspiciatis.",
+        "I hav face many difficulty that helps me today to better understand things as well as provide a quite solution.",
       avatar: AV4,
       Cname: "Client 6",
     },
